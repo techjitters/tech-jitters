@@ -105,8 +105,9 @@ h2{
 /* BUTTON */
 
 .btton{
-    padding: 0 20rem 0;
+    padding: 0 70rem 0;
     width: 255px;
+    margin: 2rem;
 }
 
 .btn {

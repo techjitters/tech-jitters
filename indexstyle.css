@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* title section */
+#title{
+    height: auto;
+    background-color: #072049;
+    margin: 0;
+    width: 100% !important;
+}
+
+.logoimg{
+    height: 125px;
+    width: 125px;
+    border-radius: 7px;
+    box-shadow: 0 0 20px 0 #ffff;
+}
+
+.child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #072049;
+    align-items: center;
+    
+}
+
+.head{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* data analysis rule-section  */
+#udarule{
+    margin: 2% 1%;
+    background-color: #072049;
+    border-radius: 1rem;
+    height: 400px;
+}
+h2{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dacode{
+    padding: 2rem 6rem;
+    color: white;
+    line-height: 1.5rem;;
+}
+
+/* section-rcdrule */
+
+#rcdrule{
+    margin: 2% 1%;
+    background-color: #072049;
+    border-radius: 1rem;
+    height: 350px;
+}
+
+.rcode{
+    padding: 2rem 6rem;
+    color: white;
+    line-height: 1.5rem;;
+}
+
+/* cdrule section */
+
+#cdrule{
+    margin: 2% 1%;
+    background-color: #072049;
+    border-radius: 1rem;
+    height: 350px;
+}
+
+.cdcode{
+    padding: 2rem 6rem;
+    color: white;
+    line-height: 1.5rem;;
+}
+
+/* itrule section */
+
+#itrule{
+    margin: 2% 1%;
+    background-color: #072049;
+    border-radius: 1rem;
+    height: 450px;
+}
+
+.itcode{
+    padding: 2rem 6rem;
+    color: white;
+    line-height: 1.5rem;;
+}
+
+/* BUTTON */
+
+.button{
+    padding: 0 30rem 1rem 30rem;
+}
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 60px;
+    background: #072049;
+    padding: 12px 20px 10px 20px;
+    text-decoration: none;
+    justify-content: center;
+}  
+.btn:hover {
+    background: #072049;
+    text-decoration: none;
+    box-shadow: inset 4px 4px 14px -3px #ffff,inset -4px -4px 14px 0px #ffff;
+}
+
+/* footer section */
+#footer{
+    margin: 2% 0 0 ;
+    background-color: #072049;
+    height: 295px;
+}
+
+.about{
+    padding: 2rem 6rem;
+    color: white;
+    text-align: center;
+    line-height: 2.9rem;
+    
+}
+
+.pabout{
+    font-size: 1.5rem;
+   
+}

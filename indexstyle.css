@@ -102,54 +102,7 @@ h2{
     line-height: 1.5rem;;
 }
 
-/* BUTTON 
-
-.btnsec{
-    background-color: white;
-    margin: 2rem 0;
-    width: 100%;
-    height: 100px;
-}
- .btton{
-    
-    padding: 2.5rem; 
-}
-.btn2{
-    margin-left: 32rem;
-}
-
-.btn {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    padding: 0px 40px;
-    border: 1px solid #061d4200;
-    border-radius: 8px;
-    background: #083a8a;
-    background: -webkit-gradient(linear, left top, left bottom, from(#083a8a), to(#061d42));
-    background: -moz-linear-gradient(top, #083a8a, #061d42);
-    background: linear-gradient(to bottom, #083a8a, #061d42);
-    font: normal normal bold 30px verdana;
-    color: #ffffff;
-    text-decoration: none;
-}
-.btn:hover,
-.btn:focus {
-    border: 1px solid #07204900;
-    background: #0a46a6;
-    background: -webkit-gradient(linear, left top, left bottom, from(#0a46a6), to(#07234f));
-    background: -moz-linear-gradient(top, #0a46a6, #07234f);
-    background: linear-gradient(to bottom, #0a46a6, #07234f);
-    color: #ffffff;
-    text-decoration: none;
-}
-.btn:active {
-    background: #052353;
-    background: -webkit-gradient(linear, left top, left bottom, from(#052353), to(#061d42));
-    background: -moz-linear-gradient(top, #052353, #061d42);
-    background: linear-gradient(to bottom, #052353, #061d42);
-}
-*/
+/* BUTTON */
 .btnsec{
    display: flex;
    justify-content: center;
@@ -253,45 +206,7 @@ h2{
     h2{
         line-height: 2.5rem;
     }
-
-    /* .btton{
     
-        padding: 2.1rem; 
-    }
-    .btn2{
-        margin-left: 2rem;
-    }
-    .btn {
-        display: inline-block;
-        text-align: center;
-        vertical-align: middle;
-        padding: 20px 30px;
-        border: 1px solid #061d42;
-        border-radius: 8px;
-        background: #083a8a;
-        background: -webkit-gradient(linear, left top, left bottom, from(#083a8a), to(#061d42));
-        background: -moz-linear-gradient(top, #083a8a, #061d42);
-        background: linear-gradient(to bottom, #083a8a, #061d42);
-        font: normal normal bold 10px verdana;
-        color: #ffffff;
-        text-decoration: none;
-    }
-    .btn:hover,
-    .btn:focus {
-        border: 1px solid #072049;
-        background: #0a46a6;
-        background: -webkit-gradient(linear, left top, left bottom, from(#0a46a6), to(#07234f));
-        background: -moz-linear-gradient(top, #0a46a6, #07234f);
-        background: linear-gradient(to bottom, #0a46a6, #07234f);
-        color: #ffffff;
-        text-decoration: none;
-    }
-    .btn:active {
-        background: #052353;
-        background: -webkit-gradient(linear, left top, left bottom, from(#052353), to(#061d42));
-        background: -moz-linear-gradient(top, #052353, #061d42);
-        background: linear-gradient(to bottom, #052353, #061d42);
-    } */
     
       #footer{
         margin: 2% 0 0;

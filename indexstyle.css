@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,100&family=Open+Sans:ital,wght@0,300;0,600;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,500;1,100;1,300&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,300&family=Trispace:wght@200;300;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -29,6 +30,7 @@
     
 }
 
+
 .head{
     font-size: 40px;
     font-weight: bolder;
@@ -40,9 +42,9 @@
 /* data analysis rule-section  */
 #udarule{
     margin: 2% 1%;
-    background-color: #072049;
+    /* background-color: #072049; */
     border-radius: 1rem;
-    height: 400px;
+    height: auto;
 }
 h2{
     color: white;
@@ -106,6 +108,7 @@ h2{
 
 .button{
     padding: 0 30rem 1rem 30rem;
+    display: none;
 }
 .btn {
     -webkit-border-radius: 10;
@@ -133,14 +136,66 @@ h2{
 }
 
 .about{
-    padding: 2rem 6rem;
+  padding: 20px;
     color: white;
-    text-align: center;
-    line-height: 2.9rem;
+    text-align: justify;
+    line-height: 2.5rem;
+    background-color: #072049;
+    font-family: poppins;
     
 }
 
-.pabout{
-    font-size: 1.5rem;
-   
+
+.cardd{
+    background-color: #072049; 
+    font-family: 'Poppins', sans-serif; 
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.cardd p{
+    height: auto;
+    background-color: #072049;
+    padding: 20px;
+    text-align: justify;
+    font-family: 60px;
+}
+
+.cardd p br{
+    height: 20px;
+    
+}
+.cardd p{
+    
+    color: white;
+}
+
+.space{
+    height: 20px;
+}
+
+.subhead{
+    color: white;
+    padding: 20px;
+}
+
+.card-head{
+    padding: 20px;
+}
+
+@media screen and (min-device-width: 281px) and (max-device-width: 940px) { 
+    
+    .img2{
+        display: none;
+
+    }
+    .img1{
+        height: 100px;
+        width: 100px;
+    }
+
+    .child{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
 }

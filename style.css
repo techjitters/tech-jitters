@@ -204,7 +204,10 @@ h6{
 {
     display: none;
 }
-
+.contact{
+    direction: ltr;
+    color: #F9F9F9;
+}
 @media screen and (min-device-width: 200px) and (max-device-width: 1000px) { 
     #titles{
         height: auto;

@@ -89,7 +89,11 @@ h6{
     font-family: 'Pacifico', cursive;
     color: #F7D716 !important;
 }
-
+.msg{
+    color: #ffffff;
+    padding: 1rem 0 ;
+    background-color: #2f154e;
+}
 /* data analysis rule-section  */
 #udarule{
     margin: 2% 1%;
